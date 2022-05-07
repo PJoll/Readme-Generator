@@ -12,8 +12,9 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  console.log(data, data.title)
   return `# ${data.title}
-<h1 align-center> ${data.Title}</h1>
+<h1 align-center> ${data.title}</h1>
 
 // put in badge
 
