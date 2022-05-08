@@ -12,13 +12,14 @@ const questions = [{ name: "username", type: "input", message: "write name" },
 { name: "Description", type: "input", message: "Write a short description outlining your project." },
 { name: "installation", type: "input", message: "Are there any instalation instructions?"},
 { name: "usage", type: "input", message: "What is this use of the project?"},
-{ name: "contributing", type: "input", message: "Who are the contributers for this project?"},
+{ name: "contribution", type: "input", message: "Who are the contributers for this project?"},
 { name: "tests", type: "input", message: "Are there any tests included in the project?"},
 { name: "licence", type: "list", message: "Chose the licence for the project!", choices: [
     "Apache",
+    "GNU",
     "ISC",
     "MIT",]},
-{ name: "questions", type: "input", message: "Are there any further questions?"},]
+{ name: "questions", type: "input", message: "Are there any further questions?  "},]
 
 
 
