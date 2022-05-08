@@ -7,10 +7,12 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 
 console.log(inquirer);
 // TODO: Create an array of questions for user input
- const questions = [{name: "username", type: "input", message: "write name"},{name: "title", type: "input", message: "write name"},{name: "Description", type: "input", message: "Write a short description outlining your project."}];
- 
- 
- //new Promise(function (resolve, reject) {
+const questions = [{ name: "username", type: "input", message: "write name" },
+{ name: "title", type: "input", message: "What is the title of your project?" },
+{ name: "Description", type: "input", message: "Write a short description outlining your project." }];
+
+
+//new Promise(function (resolve, reject) {
 //     resolve(inquirer.prompt)[
 //         {
 //             type: "input",
@@ -18,18 +20,18 @@ console.log(inquirer);
 //             name: "username",
 
 //         }
-        // {
-        //     type: "input",
-        //     message: "What is your Project Title?",
-        //     name: "Title",
+// {
+//     type: "input",
+//     message: "What is your Project Title?",
+//     name: "Title",
 
-        // },
-        // {
-        //     type: "input",
-        //     message: "Write a short description outlining your project.",
-        //     name: "Description"
-        // }
-    //]
+// },
+// {
+//     type: "input",
+//     message: "Write a short description outlining your project.",
+//     name: "Description"
+// }
+//]
 //});
 
 
@@ -41,20 +43,20 @@ const writeFileAsync = util.promisify(writeToFile);
 async function init() {
     try {
         var markdown
-        
+
         const userResponses = await inquirer.prompt(questions).then((answer) => {
 
             console.log("first name" + answer.first_name);
             console.log("last name" + answer.last_name);
 
             markdown = answer;
-            
+
         });
         console.log(userResponses);
         // const markdown = generateMarkdown(userResponses);
 
         console.log("Generating Readme!!!!!")
-        var inputstring = generateMarkdown(markdown); 
+        var inputstring = generateMarkdown(markdown);
 
 
         console.log(markdown);
