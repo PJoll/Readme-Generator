@@ -9,30 +9,17 @@ console.log(inquirer);
 // TODO: Create an array of questions for user input
 const questions = [{ name: "username", type: "input", message: "write name" },
 { name: "title", type: "input", message: "What is the title of your project?" },
-{ name: "Description", type: "input", message: "Write a short description outlining your project." }];
+{ name: "Description", type: "input", message: "Write a short description outlining your project." },
+{ name: "installation", type: "input", message: "Are there any instalation instructions?"},
+{ name: "usage", type: "input", message: "What is this use of the project?"},
+{ name: "contributing", type: "input", message: "Who are the contributers for this project?"},
+{ name: "tests", type: "input", message: "Are there any tests included in the project?"},
+{ name: "licence", type: "list", message: "Chose the licence for the project!", choices: [
+    "Apache",
+    "ISC",
+    "MIT",]},
+{ name: "questions", type: "input", message: "Are there any further questions?"},]
 
-
-//new Promise(function (resolve, reject) {
-//     resolve(inquirer.prompt)[
-//         {
-//             type: "input",
-//             message: "What is your Git username?",
-//             name: "username",
-
-//         }
-// {
-//     type: "input",
-//     message: "What is your Project Title?",
-//     name: "Title",
-
-// },
-// {
-//     type: "input",
-//     message: "Write a short description outlining your project.",
-//     name: "Description"
-// }
-//]
-//});
 
 
 
