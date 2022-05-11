@@ -9,7 +9,7 @@ console.log(inquirer);
 // TODO: Create an array of questions for user input
 const questions = [{ name: "username", type: "input", message: "write name" },
 { name: "title", type: "input", message: "What is the title of your project?" },
-{ name: "Description", type: "input", message: "Write a short description outlining your project." },
+{ name: "description", type: "input", message: "Write a short description outlining your project." },
 { name: "installation", type: "input", message: "Are there any instalation instructions?"},
 { name: "usage", type: "input", message: "What is this use of the project?"},
 { name: "contribution", type: "input", message: "Who are the contributers for this project?"},

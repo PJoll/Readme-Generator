@@ -1,10 +1,10 @@
-# Creating a website
-<h1 align-center> Creating a website</h1>
+# Gaming 
+<h1 align-center> Gaming </h1>
 
 
 
 ##Description
-Using HTML and css to create a website
+To play games
 
 ## Table of Contents
 -[Description](#Description)
@@ -15,23 +15,23 @@ Using HTML and css to create a website
 -[Questions](#questions)
 
 ## Installation
-run npm i
+yes
 
 ## Liscence
-undefined
+Apache
 
 ## Usage
-To create a website
+games
 
 
 ## Contribution
-Peter , Willow
+peter
 
 ## Tests
-NO
+no
 
 ## Questions
-Yes 
+no
 
 If any further questions, Reach out to me on.. (https://github.com/PJoll)
  or at my email pjoll415@gmail.com
