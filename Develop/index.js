@@ -3,7 +3,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-const generateMarkdown = require("./utils/generateMarkdown.js");
+const generateMarkdown = require("../generateMarkdown.js");
 
 console.log(inquirer);
 // TODO: Create an array of questions for user input
@@ -34,23 +34,20 @@ async function init() {
 
         const userResponses = await inquirer.prompt(questions).then((answer) => {
 
-            console.log("first name" + answer.first_name);
-            console.log("last name" + answer.last_name);
-
+          
             markdown = answer;
 
         });
-        console.log(userResponses);
+     
         // const markdown = generateMarkdown(userResponses);
 
         console.log("Generating Readme!!!!!")
         var inputstring = generateMarkdown(markdown);
 
 
-        console.log(markdown);
         await fs.writeFileSync("GeneratedReadme.md", inputstring);
     } catch (error) {
-        console.log(error);
+        
     }
 };
 function writeToFile(fileName, data) {

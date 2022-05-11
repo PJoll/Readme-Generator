@@ -1,10 +1,10 @@
-# Cat Proggraming
-<h1 align-center> Cat Proggraming</h1>
+# Creating a website
+<h1 align-center> Creating a website</h1>
 
 
 
 ##Description
-Goal to program cats
+Using HTML and css to create a website
 
 ## Table of Contents
 -[Description](#Description)
@@ -12,25 +12,26 @@ Goal to program cats
 -[Usage](#usage)
 -[Contribution](#contribution)
 -[Tests](#tests)
+-[Questions](#questions)
 
 ## Installation
-yes, run npm i
+run npm i
 
 ## Liscence
-[![License: ISC](https://img.shields.io/badge/License-undefined-yellow.svg)](https://opensource.org/licenses/ISC)
+undefined
 
 ## Usage
-To program cats to obey my will
+To create a website
 
 
 ## Contribution
-undefined
+Peter , Willow
 
 ## Tests
-yes many cats
+NO
 
 ## Questions
-Not for now
+Yes 
 
 If any further questions, Reach out to me on.. (https://github.com/PJoll)
  or at my email pjoll415@gmail.com
