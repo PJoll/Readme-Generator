@@ -1,37 +1,38 @@
-# Gaming 
-<h1 align-center> Gaming </h1>
+# Stylish Webpage
 
 
 
-##Description
-To play games
+
+## Description
+
+Creating a stylish webpage for a football club.
 
 ## Table of Contents
--[Description](#Description)
--[Instalation](#installation)
--[Usage](#usage)
--[Contribution](#contribution)
--[Tests](#tests)
--[Questions](#questions)
+-[Description](#description) <br />
+-[Instalation](#installation) <br />
+-[Usage](#usage) <br />
+-[Contribution](#contribution) <br />
+-[Tests](#tests) <br />
+-[Questions](#questions) <br />
 
 ## Installation
-yes
+Yes run npm i
 
 ## Liscence
 Apache
 
 ## Usage
-games
+To have a website using HTML and CSS for a local footy team
 
 
 ## Contribution
-peter
+Peter , Willow
 
 ## Tests
-no
+Yes
 
 ## Questions
-no
+No
 
 If any further questions, Reach out to me on.. (https://github.com/PJoll)
  or at my email pjoll415@gmail.com

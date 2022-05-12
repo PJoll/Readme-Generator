@@ -3,9 +3,9 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-const generateMarkdown = require("../generateMarkdown.js");
+const generateMarkdown = require("./generateMarkdown");
 
-console.log(inquirer);
+// console.log(inquirer);
 // TODO: Create an array of questions for user input
 const questions = [{ name: "username", type: "input", message: "write name" },
 { name: "title", type: "input", message: "What is the title of your project?" },
@@ -35,7 +35,7 @@ async function init() {
         const userResponses = await inquirer.prompt(questions).then((answer) => {
 
           
-            markdown = answer;
+         markdown = answer;
 
         });
      
@@ -44,10 +44,11 @@ async function init() {
         console.log("Generating Readme!!!!!")
         var inputstring = generateMarkdown(markdown);
 
-
-        await fs.writeFileSync("GeneratedReadme.md", inputstring);
-    } catch (error) {
         
+        await fs.writeFileSync("GeneratedReadme.md", inputstring);
+        
+    } catch (error) {
+        console.log(error)
     }
 };
 function writeToFile(fileName, data) {
